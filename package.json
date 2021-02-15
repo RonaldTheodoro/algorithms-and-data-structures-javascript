@@ -1,0 +1,25 @@
+{
+  "name": "algorithms-and-data-structures-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RonaldTheodoro/algorithms-and-data-structures-javascript.git"
+  },
+  "keywords": [
+    "javascript",
+    "algorithms",
+    "data",
+    "structures"
+  ],
+  "author": "ronald theodoro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RonaldTheodoro/algorithms-and-data-structures-javascript/issues"
+  },
+  "homepage": "https://github.com/RonaldTheodoro/algorithms-and-data-structures-javascript#readme"
+}
