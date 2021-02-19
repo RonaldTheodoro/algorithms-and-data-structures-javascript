@@ -1,6 +1,4 @@
-const baseConverter = require(
-    '../../../../src/algorithms/stacks/stack-base-converter'
-)
+import baseConverter from '../../../../src/algorithms/stacks/stack-base-converter'
 
 describe('Base converter tests', () => {
 

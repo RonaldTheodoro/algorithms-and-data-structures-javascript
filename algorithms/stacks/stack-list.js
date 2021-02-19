@@ -1,4 +1,4 @@
-class StackList {
+export default class StackList {
 
     constructor() {
         this._items = []

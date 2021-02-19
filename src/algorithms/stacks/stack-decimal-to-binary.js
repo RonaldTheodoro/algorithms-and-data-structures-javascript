@@ -1,6 +1,6 @@
-const Stack = require('../../../algorithms/stacks/stack')
+import Stack from '../../../algorithms/stacks/stack'
 
-function decimalToBinary(decimalNumber) {
+export default function decimalToBinary(decimalNumber) {
     const stack = new Stack()
 
     let number = decimalNumber
@@ -19,5 +19,3 @@ function decimalToBinary(decimalNumber) {
 
     return binaryString
 }
-
-module.exports = decimalToBinary

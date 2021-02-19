@@ -1,4 +1,4 @@
-const Stack = require('../../../algorithms/stacks/stack')
+import Stack from '../../../algorithms/stacks/stack'
 
 describe('Stack tests', () => {
     let stack

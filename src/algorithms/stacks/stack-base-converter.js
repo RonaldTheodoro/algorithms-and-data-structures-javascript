@@ -1,6 +1,6 @@
-const Stack = require('../../../algorithms/stacks/stack')
+import Stack from '../../../algorithms/stacks/stack'
 
-function baseConverter(decimalNumber, base) {
+export default function baseConverter(decimalNumber, base) {
     const stack = new Stack()
     const digits = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
     let number = decimalNumber
@@ -21,5 +21,3 @@ function baseConverter(decimalNumber, base) {
 
     return baseString
 }
-
-module.exports = baseConverter
