@@ -29,4 +29,8 @@ export default class StackSymbol {
     size() {
         return this[_items].length
     }
+
+    toString() {
+        return this.isEmpty() ? '' : this[_items].join(',')
+    }
 }
