@@ -17,18 +17,27 @@ export default class StackWeakMap {
     }
 
     peek() {
-        return this._items[this._items.length - 1]
+        const s = items.get(this)
+        return s[s.length - 1]
     }
 
     isEmpty() {
-        return this._items.length === 0
+        const s = items.get(this)
+        return s.length === 0
     }
 
     clear() {
-        this._items = []
+        while (!this.isEmpty())
+            this.pop()
+    }
+    
+    size() {
+        const s = items.get(this)
+        return s.length
     }
 
-    size() {
-        return this._items.length
+    toString() {
+        const s = items.get(this)
+        return this.isEmpty() ? '' : s.join(',')
     }
 }
