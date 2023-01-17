@@ -1,10 +1,10 @@
-import Stack from '../../../algorithms/stacks/stack'
+import StackSymbol from '../../../algorithms/stacks/stack-symbol'
 
 describe('Stack tests', () => {
     let stack
 
     beforeEach(() => {
-        stack = new Stack()
+        stack = new StackSymbol()
     })
 
     test('Should push values', () => {
