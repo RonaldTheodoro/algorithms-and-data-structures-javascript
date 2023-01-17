@@ -27,4 +27,8 @@ export default class StackList {
     size() {
         return this._items.length
     }
+
+    toString() {
+        return this.isEmpty() ? '' : this._items.join(',')
+    }
 }
