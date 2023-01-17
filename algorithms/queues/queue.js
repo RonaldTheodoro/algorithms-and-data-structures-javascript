@@ -8,7 +8,7 @@ export default class Queue {
 
     enqueue(element) {
         this._itens[this._count] = element
-        this._count += 1
+        this._count++
     }
 
     dequeue() {
@@ -31,7 +31,7 @@ export default class Queue {
     }
 
     isEmpty() {
-        return this._count - this._lowestCount === 0
+        return this.size() === 0
     }
 
     clear() {
