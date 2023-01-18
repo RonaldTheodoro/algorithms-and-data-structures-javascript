@@ -1,4 +1,4 @@
-import decimalToBinary from '../../../../src/algorithms/stacks/stack-decimal-to-binary'
+import decimalToBinary from '../../../../src/algorithms/stacks/decimal-to-binary'
 
 describe('Decimal to binary tests', () => {
 

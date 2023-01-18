@@ -1,4 +1,4 @@
-import hot_potato from '../../../../src/algorithms/queue/queue-hot-potato'
+import hot_potato from '../../../../src/algorithms/queue/hot-potato'
 
 
 describe('Hot potato tests', () => {

@@ -1,4 +1,4 @@
-import baseConverter from '../../../../src/algorithms/stacks/stack-base-converter'
+import baseConverter from '../../../../src/algorithms/stacks/base-converter'
 
 describe('Base converter tests', () => {
 
